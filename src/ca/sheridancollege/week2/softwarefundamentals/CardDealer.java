@@ -20,5 +20,8 @@ public class CardDealer
         
         Card fiveDiamond = new Card("Dmnd", 5);
         fiveDiamond.setSuit("diamonds");
+        
+        System.out.println("Suit: " + fiveDiamond.getSuit());
+        System.out.println("Value: " + fiveDiamond.getValue());
     }
 }
