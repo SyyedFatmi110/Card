@@ -25,6 +25,6 @@ public class CardDealer
         System.out.println("Value: " + fiveDiamond.getValue());
         
         Card sixSpades = new Card("Spades", 6);
-        fiveDiamond.setSuit("spades");
+        sixSpades.setSuit("spades");
     }
 }
